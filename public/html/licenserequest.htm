@@ -1,0 +1,170 @@
+<html>
+<head>
+    <META HTTP-EQUIV=Content-type CONTENT=texthtml; charset=UTF-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+    <link rel="stylesheet" href="Anthemhome.css">
+    <script type="text/javascript" src="formvalidation.js"></script>
+</head>
+<body class="bodybackground">
+
+<table width="100%"><td width ="20%"></td><td width ="60%" align="left"></td><td width ="20%" align="left"></tr>
+
+    <td width ="20%"></td><td width ="60%" align="left">
+    <img class="imghead"  src="/images/anthemlogosmall.png" /><br />
+    </td><td align="right"></td></tr>
+    <td width ="20%"></td>
+     <td width ="60%" align="right"><h2 class="h2">License Request</h2>
+        </td><td width ="20%" align="right"></tr>
+    
+</td>
+
+<tr><td></td><td>
+
+    
+    <form name="anthem" onsubmit="return validateForm()" action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+    
+    <input class="input"  type=hidden name="orgid" value="00D37000000IN9X">
+    <input class="input"  type=hidden name="retURL" value="https://coelandingpage.herokuapp.com/html/requestsubmitted.htm">
+
+    <label class="ant-input-long"for="name">Contact Name: </label><input class="input"   id="name" maxlength="80" name="name" size="20" type="text" />
+    
+    <label for="email">Email: </label><input class="input"   id="email" maxlength="80" name="email" size="20" type="text" />
+    
+    <label for="phone">Phone: </label><input class="input"   id="phone" maxlength="40" name="phone" size="20" type="text" />
+    
+    <label for="subject">Subject: </label><input class="input"   id="subject" maxlength="80" name="subject" size="20" type="text" />
+    
+    <label for="description">Description: </label><textarea  class="input" name="description"></textarea>
+    
+    <label for="RequestAction">Request Action: </label><select  id="00N1G000007kxFg" name="00N1G000007kxFg" title="Request Action"><option value="">--None--</option><option value="New License Request">New License Request</option>
+    <option value="Modify License Request">Modify License Request</option>
+    <option value="Delete Licenses">Delete Licenses</option>
+    <option value="New Project">New Project</option>
+    <option value="Update Project">Update Project</option>
+    <option value="Cancel Project">Cancel Project</option>
+    <option value="Other">Other</option>
+    </select>
+    <label for="LicenseQuantity">License Quantity: </label>
+    <input class="input" id="00N1G000007kxFW" name="00N1G000007kxFW" size="20" type="text" />
+    <label for="LicenseTypeRequested">License Type Requested: </label>
+    <select  id="00N1G000007kxFb" name="00N1G000007kxFb" title="License Type Requested"><option value="">--None--</option><option value="Service Cloud Lightning CRM – Unlimited Edition">Service Cloud Lightning CRM – Unlimited Edition</option>
+    <option value="Einstein Analytics Growth">Einstein Analytics Growth</option>
+    <option value="Files Connect">Files Connect</option>
+    <option value="Service Cloud Lightning CRM – Restricted Use (Dual Access)">Service Cloud Lightning CRM – Restricted Use (Dual Access)</option>
+    <option value="Employee Apps &amp; Community">Employee Apps &amp; Community</option>
+    <option value="Surveys">Surveys</option>
+    <option value="Full Copy Sandbox">Full Copy Sandbox</option>
+    <option value="Partner Community – Login">Partner Community – Login</option>
+    <option value="Partner Community – Members">Partner Community – Members</option>
+    <option value="Additional Objects">Additional Objects</option>
+    <option value="Force.com Light Applications">Force.com Light Applications</option>
+    <option value="Salesforce Connect">Salesforce Connect</option>
+    <option value="Data.com Corporate Prospector">Data.com Corporate Prospector</option>
+    <option value="Force.com – Unlimited Edition">Force.com – Unlimited Edition</option>
+    <option value="Map Anything">Map Anything</option>
+    <option value="Map Anything Kickstart">Map Anything Kickstart</option>
+    <option value="Data.com Clean – Unlimited Edition">Data.com Clean – Unlimited Edition</option>
+    <option value="Data.com Prospector – Unlimited Edition">Data.com Prospector – Unlimited Edition</option>
+    <option value="Pardot-Database-Pro">Pardot-Database-Pro</option>
+    <option value="Pardot Additional Contacts">Pardot Additional Contacts</option>
+    <option value="MyTrailhead">MyTrailhead</option>
+    </select>
+    <label for="SalesforceOrg">Salesforce Org: </label>   
+    <select  id="00N1G000007kxFl" multiple="multiple" name="00N1G000007kxFl" title="Salesforce Org" ><option value="COE">COE</option>
+    <option value="Comm1">Comm1</option>
+    <option value="Comm2">Comm2</option>
+    <option value="PAT">PAT</option>
+    <option value="MMC/Collab">MMC/Collab</option>
+    <option value="AIM Specialty Health">AIM Specialty Health</option>
+    <option value="Amerigroup Corp">Amerigroup Corp</option>
+    <option value="AMG">AMG</option>
+    <option value="Anthem - UniCare State Indemnity Plan">Anthem - UniCare State Indemnity Plan</option>
+    <option value="Anthem DBG">Anthem DBG</option>
+    <option value="Anthem FEP">Anthem FEP</option>
+    <option value="Anthem Procurement">Anthem Procurement</option>
+    <option value="CareMore Health Plan">CareMore Health Plan</option>
+    <option value="Digital Org">Digital Org</option>
+    <option value="Healthcore">Healthcore</option>
+    <option value="IND/ISG Org">IND/ISG Org</option>
+    <option value="Provider">Provider</option>
+    <option value="Subrogation Finance Org">Subrogation Finance Org</option>
+    </select>
+    <label for="StateAccess">State Access: </label>
+    <select  id="00N1G000007kxFq" multiple="multiple" name="00N1G000007kxFq" title="State Access"><option value="Alabama - AL">Alabama - AL</option>
+    <option value="Alaska - AK">Alaska - AK</option>
+    <option value="Arizona - AZ">Arizona - AZ</option>
+    <option value="Arkansas - AR">Arkansas - AR</option>
+    <option value="California - CA">California - CA</option>
+    <option value="Colorado - CO">Colorado - CO</option>
+    <option value="Connecticut - CT">Connecticut - CT</option>
+    <option value="Delaware - DE">Delaware - DE</option>
+    <option value="Florida - FL">Florida - FL</option>
+    <option value="Georgia - GA">Georgia - GA</option>
+    <option value="Hawaii - HI">Hawaii - HI</option>
+    <option value="Idaho - ID">Idaho - ID</option>
+    <option value="Illinois - IL">Illinois - IL</option>
+    <option value="Indiana - IN">Indiana - IN</option>
+    <option value="Iowa - IA">Iowa - IA</option>
+    <option value="Kansas - KS">Kansas - KS</option>
+    <option value="Kentucky - KY">Kentucky - KY</option>
+    <option value="Louisiana - LA">Louisiana - LA</option>
+    <option value="Maine - ME">Maine - ME</option>
+    <option value="Maryland - MD">Maryland - MD</option>
+    <option value="Massachusetts - MA">Massachusetts - MA</option>
+    <option value="Michigan - MI">Michigan - MI</option>
+    <option value="Minnesota - MN">Minnesota - MN</option>
+    <option value="Mississippi - MS">Mississippi - MS</option>
+    <option value="Missouri - MO">Missouri - MO</option>
+    <option value="Montana - MT">Montana - MT</option>
+    <option value="Nebraska - NE">Nebraska - NE</option>
+    <option value="Nevada - NV">Nevada - NV</option>
+    <option value="New Hampshire - NH">New Hampshire - NH</option>
+    <option value="New Jersey - NJ">New Jersey - NJ</option>
+    <option value="New Mexico - NM">New Mexico - NM</option>
+    <option value="New York - NY">New York - NY</option>
+    <option value="North Carolina - NC">North Carolina - NC</option>
+    <option value="North Dakota - ND">North Dakota - ND</option>
+    <option value="Ohio - OH">Ohio - OH</option>
+    <option value="Oklahoma - OK">Oklahoma - OK</option>
+    <option value="Oregon - OR">Oregon - OR</option>
+    <option value="Pennsylvania - PA">Pennsylvania - PA</option>
+    <option value="Rhode Island - RI">Rhode Island - RI</option>
+    <option value="South Carolina - SC">South Carolina - SC</option>
+    <option value="South Dakota - SD">South Dakota - SD</option>
+    <option value="Tennessee - TN">Tennessee - TN</option>
+    <option value="Texas - TX">Texas - TX</option>
+    <option value="Utah - UT">Utah - UT</option>
+    <option value="Vermont - VT">Vermont - VT</option>
+    <option value="Virginia - VA">Virginia - VA</option>
+    <option value="Washington - WA">Washington - WA</option>
+    <option value="West Virginia - WV">West Virginia - WV</option>
+    <option value="Wisconsin - WI">Wisconsin - WI</option>
+    <option value="Wyoming - WY">Wyoming - WY</option>
+    </select>
+    <label for="AnthemBusinessUnit:">Anthem Business Unit: </label>
+    <select  id="00N1G000007kxFC" multiple="multiple" name="00N1G000007kxFC" title="Anthem Business Unit"><option value="Large Group">Large Group</option>
+    <option value="Small Group">Small Group</option>
+    <option value="ISG">ISG</option>
+    </select>
+    <label for="AnthemDomainID">Anthem Domain ID:</label>
+    <input class="input"   id="00N1G000007kxFH" maxlength="7" name="00N1G000007kxFH" size="20" type="text" />
+    
+    <label for="priority">Priority: </label><select  id="priority" name="priority"><option value="">--None--</option><option value="High">High</option>
+    <option value="Medium">Medium</option>
+    <option value="Low">Low</option>
+    <option value="Critical">Critical</option>
+    <option value="Major">Major</option>
+    <option value="Minor">Minor</option>
+    </select>
+    <center>
+    <input class="input"  type="submit" name="submit">
+    </center>
+<form name="anthem" onsubmit="return validateForm()">
+    
+    
+
+</td><td></td></tr>
+</table>
+
+</body>
+</html>

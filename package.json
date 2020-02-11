@@ -1,23 +1,28 @@
 {
-  "name": "test",
-  "version": "0.1.0",
-  "private": true,
+  "name": "anthem-flip-dev",
+  "version": "0.0.326",
+  "description": null,
+  "keywords": [],
+  "main": "index.js",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^7.2.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.3.1"
+    "react": "15.5.3",
+    "react-device-detect": "^1.11.14",
+    "react-dom": "15.5.3",
+    "react-flipcard": "0.2.1",
+    "react-parallax": "3.0.3",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "react-scripts": "^3.3.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node index.js",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "engines": {
+    "node": "12.13.0"
   },
   "browserslist": {
     "production": [

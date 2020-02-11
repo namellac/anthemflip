@@ -1,0 +1,13 @@
+{
+  "name": "anthem-flip-dev",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "react": "15.5.3",
+    "react-dom": "15.5.3",
+    "react-flipcard": "0.2.1",
+    "react-parallax": "3.0.3"
+  }
+}
