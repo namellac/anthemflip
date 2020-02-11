@@ -7,10 +7,12 @@ import Greeting from "./Greeting.jsx";
 const styles = {
   fontFamily: "sans-serif",
   textAlign: "center"
+    console.log(fontFamily);
 };
 
 const App = () => (
-  <div style={styles}>
+  <div >
+
     <Greeting />
     <Anthem />
   </div>
