@@ -22,10 +22,15 @@
 .h2{
     margin-top: 0.99em;
     margin-bottom: 0.99em;
-    margin-left: 0.99em;
     margin-right: 0;
     font-weight: bold;
     color:#444444;
+}
+.formhead{
+    font: Arial;
+    size: 22px;
+    font-weight: bold;
+    color: #444444;
 }
 .imghead{
     
