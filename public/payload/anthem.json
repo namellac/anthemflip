@@ -10,11 +10,7 @@
     "backsidelink2": "",
     "backsidelinktext2": "",
     "backsidelink3": "",
-    "backsidelinktext3": "",
-    "backsidelink4": "",
-    "backsidelinktext4": "",
-    "baacksidelink5": "",
-    "backsidelinktext5": "",
+
     "tags": ["trailhead"]
   },  
   {
@@ -25,14 +21,6 @@
     "backsideheader": "",
     "backsidelink1": "https://pulse.antheminc.com/webcenter/portal/Pulse/",
     "backsidelinktext1": "[click here]",
-    "backsidelink2": "",
-    "backsidelinktext2": "",
-    "backsidelink3": "",
-    "backsidelinktext3": "",
-    "backsidelink4": "",
-    "backsidelinktext4": "",
-    "backsidelink5": "",
-    "backsidelinktext5": "",
     "tags": ["pulse"]
   },
   {
@@ -43,14 +31,6 @@
     "backimgurl": "/images/agilecraft.png",
     "backsidelink1": "https://anthem.agilecraft.com",
     "backsidelinktext1": "[click here]",
-    "backsidelink2": "",
-    "backsidelinktext2": "",
-    "backsidelink3": "",
-    "backsidelinktext3": "",
-    "backsidelink4": "",
-    "backsidelinktext4": "",
-    "backsidelink5": "",
-    "backsidelinktext5": "",
     "tags": ["agilecraft"]
   },
   
@@ -62,14 +42,6 @@
     "backimgurl": "/images/jira.jpg",
     "backsidelink1": "https://jira.anthem.com/",
     "backsidelinktext1": "Jira",
-    "backsidelink2": "",
-    "backsidelinktext2": "",
-    "backsidelink3": "",
-    "backsidelinktext3": "",
-    "backsidelink4": "",
-    "backsidelinktext4": "",
-    "backsidelink5": "",
-    "backsidelinktext5": "",
     "tags": ["jira"]
   },
 
@@ -85,10 +57,6 @@
     "backsidelinktext2": "FGS",
     "backsidelink3": "https://cs41.salesforce.com/",
     "backsidelinktext3": "Staging (full)",
-    "backsidelink4": "",
-    "backsidelinktext4": "",
-    "backsidelink5": "",
-    "backsidelinktext5": "",
     "tags": ["pulse"]
   },
   {
@@ -168,6 +136,7 @@
     "backimgurl": "/images/knowbase.jpg",
     "backsidelink1": "https://anthemcoe.lightning.force.com/lightning/o/FAQ__kav/list?filterName=00B1G000002r2RJUAY",
     "backsidelinktext1": "Knowledge Base",
+
     "backsidelink4": "",
     "backsidelinktext4": "",
     "backsidelink5": "",

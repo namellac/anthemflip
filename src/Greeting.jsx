@@ -3,8 +3,7 @@ import "./Anthem.css";
 import {
   BrowserView,
   MobileView,
-  isBrowser,
-  isMobile
+
 } from "react-device-detect";
 
 export default class Anthem extends React.Component {
@@ -15,7 +14,7 @@ export default class Anthem extends React.Component {
   componentDidMount() {
     //code to switch role
     var url = "/payload/authcoe.json";
-
+//      var url = "https://coelandingpagedev-developer-edition.na112.force.com/services/apexrest/v1/cards/*";
     fetch(url)
       .then(response => {
         return response.json();
@@ -34,7 +33,7 @@ export default class Anthem extends React.Component {
             <div>
             <BrowserView>
             <center>
-            <div align="center" class="screenFiller">
+            <div className="screenFiller">
               <div className="image-coe">
                 <div className="coefont">
                   <br />

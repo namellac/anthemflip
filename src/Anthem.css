@@ -135,3 +135,23 @@ a:hover {
   color: #ffffff;
   font-family: Verdana, Geneva, sans-serif;
 }
+
+.Card{
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+  transition: transform 0.35s;
+  padding: 0rem;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 25px;
+  width: 300px;
+  height: 325px;
+}
+.Cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
